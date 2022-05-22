@@ -1,0 +1,36 @@
+.container {
+    background-color: black;
+
+    .innerContainer {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+
+        .logo {
+            display: flex;
+            margin: 10px;
+        }
+
+        .navBar {
+            color: white;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-end;
+            .item {
+                margin: 0 20px;
+                cursor: pointer;
+                font-weight: bold;
+                font-size: 20px;
+                padding: 10px;
+            }
+
+            .selected {
+                background: white;
+                color: black;
+                border-top-left-radius: 12px;
+                border-top-right-radius: 12px;
+            }
+        }
+    }
+}
