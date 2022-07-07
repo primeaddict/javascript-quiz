@@ -68,9 +68,12 @@ const QuestionComponent = ({ question }) => {
                         </div>
                     })}
                 </div>
-                <div className={s.explanation}>
-                    <MarkdownPreview value={explanation} />
-                </div>
+                {status?.index !== -1 &&
+                    <div div className={s.explanation}>
+                        <div className={s.title}>Explanation</div>
+                        <MarkdownPreview value={explanation} />
+                    </div>
+                }
             </div >
         </div >
     )
