@@ -40,7 +40,7 @@ const HomeComponent = ({ noOfQuestions }) => {
 
             <div className={s.title}>
                 <header>
-                    <div id="header-content">
+                    <div>
                         <h1>JavaScript Quiz</h1>
                         <h3>A <span>fun</span> quiz to refresh js concepts.</h3>
                     </div>
