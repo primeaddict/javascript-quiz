@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { getLocalStorage } from "../../utils";
@@ -33,10 +34,9 @@ const HomeComponent = ({ noOfQuestions }) => {
     }
 
     return (
-        <>
-            <link rel="preconnect" href="https://fonts.googleapis.com" />
-            <link rel="preconnect" href="https://fonts.gstatic.com" />
-            <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet" />
+        <><Head>
+            <title>Javascript Quiz</title>
+        </Head>
 
             <div className={s.title}>
                 <header>

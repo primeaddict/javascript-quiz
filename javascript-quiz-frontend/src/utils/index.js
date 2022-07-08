@@ -5,7 +5,6 @@ const QUIZ_DATA_KEY = "quiz-data"
 
 export const setLocalStorage = (id, status) => {
     const data = getLocalStorage();
-    console.log("🚀 ~ file: index.js ~ line 8 ~ setLocalStorage ~ data", data)
     data[id] = status
     localStorage && localStorage.setItem(QUIZ_DATA_KEY, JSON.stringify(data))
 }
