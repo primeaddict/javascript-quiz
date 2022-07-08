@@ -9,10 +9,12 @@ export default function Document() {
                 <meta name="keywords" content="JavaScript, Quiz, js, learning" />
                 <meta name="author" content="Harsh Bansal" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <meta name="theme-color" content="#FFFFFF"></meta>
                 <link
                     href="https://fonts.googleapis.com/css?family=Mulish"
                     rel="stylesheet"
                 />
+                <link rel="apple-touch-icon" href="/apple-touch-icon.png"></link>
                 <title>Javascript Quiz</title>
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" />
