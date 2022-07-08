@@ -76,8 +76,7 @@ const QuestionComponent = ({ question }) => {
                     {status?.index !== -1 &&
                         <div div className={s.explanation}>
                             <div className={s.title}>Explanation</div>
-
-                            <div dangerouslySetInnerHTML={{ __html: explanation }} />
+                            <MarkdownPreview value={explanation} />
                         </div>
                     }
                 </div >
